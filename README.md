@@ -39,10 +39,6 @@ Download the latest tarball, then
 
 ---
 
-- Regarding the Mac/Linux version crashing when running, please check whether the `$HOME/.local/share` directory exists. If it does not exist, please create it manually and open ZooKeeper Assistant again. `$HOME/.local/share` is the base directory where user-specific data files are stored. For more introduction and specifications of this catalog, please check: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
-
----
-
 - When opening the Linux version, an error is reported: "Unhandled exception. System.InvalidOperationException: Default font family name can't be null or empty." You need to set the locale before running: `export LANG=en_US.UTF-8`
 , and then run again: `./ZA-1.0.10.0-linux-x64/ZooKeeperAssistant`
 
